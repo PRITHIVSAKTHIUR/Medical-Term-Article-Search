@@ -20,7 +20,7 @@ def get_advice(question):
 st.title("HealthCare Informatics MediSearch System 🧬")
 
 api_key = os.environ["api_key"] 
-text_input = st.text_input("Enter Your HealthCare Informatics MediSearch Key Here:")
+text_input = st.text_input("Enter Your HealthCare Informatics Medical Research Term Here:")
 
 if st.button("Submit"):
   with st.spinner("Loading..."):
